@@ -8,8 +8,13 @@ import com.travis.test.TravisTest;
 
 public class TravisJunitTest {
 
-@Test
-public void test() {
-assertTrue(new TravisTest().travisTest(1, 2) == 3);
-}
+	@Test
+	public void test() {
+		assertTrue(new TravisTest().travisTest(1, 2) == 3);
+	}
+	
+	@Test
+	public void test1() {
+		assertTrue(new TravisTest().travisTest(1, 2) == 4);
+	}
 }
