@@ -1,15 +1,15 @@
 package com.junit.test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.travis.test.TravisTest;
 
-class TravisJunitTest {
+public class TravisJunitTest {
 
-	@Test
-	void test() {
-		 assertTrue(new TravisTest().travisTest(1, 2) == 3);
-	}
+@Test
+public void test() {
+assertTrue(new TravisTest().travisTest(1, 2) == 3);
+}
 }
