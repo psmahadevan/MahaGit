@@ -13,8 +13,4 @@ public class TravisJunitTest {
 		assertTrue(new TravisTest().travisTest(1, 2) == 3);
 	}
 	
-	@Test
-	public void test1() {
-		assertTrue(new TravisTest().travisTest(1, 2) == 4);
-	}
 }
